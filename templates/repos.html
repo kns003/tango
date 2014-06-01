@@ -1,0 +1,10 @@
+<html>
+<h>Git hub repos</h>
+<div class="form">
+	<form class="well form-inline" action="/rango/" method="post">{% csrf_token %}
+			{{ form.as_p }}
+			<br />
+		<button class="btn btn-primary" type="submit" style="{margin: 10px 10px}">Submit</button>
+		</form>
+	</div>  
+</html>
